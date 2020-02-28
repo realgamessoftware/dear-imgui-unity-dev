@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 799c93e6e0ca18547b87800875123a96, type: 3}
+  m_Name: Font Atlas Config
+  m_EditorClassIdentifier: 
+  Rasterizer: 1
+  RasterizerFlags: 8
+  Fonts:
+  - _fontAsset: {fileID: 102900000, guid: 00261140f31f8b841a608969abee6bf1, type: 3}
+    FontPath: Fonts/Inter-Regular-hinted.ttf
+    Config:
+      FontIndexInFile: 0
+      SizeInPixels: 14
+      Oversample: {x: 3, y: 1}
+      PixelSnapH: 0
+      GlyphExtraSpacing: {x: 0, y: 0}
+      GlyphOffset: {x: 0, y: 0}
+      GlyphRanges: 0
+      GlyphMinAdvanceX: 0
+      GlyphMaxAdvanceX: 3.4028235e+38
+      MergeIntoPrevious: 0
+      RasterizerFlags: 0
+      RasterizerMultiply: 1
+      EllipsisChar: 8230
+      CustomGlyphRanges: []
+  - _fontAsset: {fileID: 102900000, guid: 2091112e7840ebb4aae37f84d1b7e0ee, type: 3}
+    FontPath: Fonts/FontAwesome 5.11/Font Awesome 5 Free-Regular-400.otf
+    Config:
+      FontIndexInFile: 0
+      SizeInPixels: 24
+      Oversample: {x: 1, y: 1}
+      PixelSnapH: 1
+      GlyphExtraSpacing: {x: 0, y: 0}
+      GlyphOffset: {x: 0, y: 0}
+      GlyphRanges: 256
+      GlyphMinAdvanceX: 0
+      GlyphMaxAdvanceX: 3.4028235e+38
+      MergeIntoPrevious: 1
+      RasterizerFlags: 0
+      RasterizerMultiply: 1
+      EllipsisChar: 8230
+      CustomGlyphRanges:
+      - Start: 61440
+        End: 63720
+  - _fontAsset: {fileID: 102900000, guid: 887645b5339a80f4b97dd70ddf373a73, type: 3}
+    FontPath: Fonts/FontAwesome 5.11/Font Awesome 5 Free-Solid-900.otf
+    Config:
+      FontIndexInFile: 0
+      SizeInPixels: 24
+      Oversample: {x: 1, y: 1}
+      PixelSnapH: 0
+      GlyphExtraSpacing: {x: 0, y: 0}
+      GlyphOffset: {x: 0, y: 0}
+      GlyphRanges: 256
+      GlyphMinAdvanceX: 0
+      GlyphMaxAdvanceX: 3.4028235e+38
+      MergeIntoPrevious: 1
+      RasterizerFlags: 0
+      RasterizerMultiply: 1
+      EllipsisChar: 8230
+      CustomGlyphRanges:
+      - Start: 61440
+        End: 63720
+  - _fontAsset: {fileID: 102900000, guid: e4841b99085a4d2448771e962219ded6, type: 3}
+    FontPath: Fonts/FontAwesome 5.11/Font Awesome 5 Brands-Regular-400.otf
+    Config:
+      FontIndexInFile: 0
+      SizeInPixels: 24
+      Oversample: {x: 1, y: 1}
+      PixelSnapH: 1
+      GlyphExtraSpacing: {x: 0, y: 0}
+      GlyphOffset: {x: 0, y: 0}
+      GlyphRanges: 256
+      GlyphMinAdvanceX: 0
+      GlyphMaxAdvanceX: 3.4028235e+38
+      MergeIntoPrevious: 1
+      RasterizerFlags: 0
+      RasterizerMultiply: 1
+      EllipsisChar: 8230
+      CustomGlyphRanges:
+      - Start: 61440
+        End: 63720

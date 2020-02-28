@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fef981ba5c204944fb4d92b74b765bd9, type: 3}
+  m_Name: DarkGrayStyle
+  m_EditorClassIdentifier: 
+  Alpha: 1
+  WindowPadding: {x: 8, y: 8}
+  WindowRounding: 2
+  WindowBorderSize: 0
+  WindowMinSize: {x: 32, y: 32}
+  WindowTitleAlign: {x: 0, y: 0.5}
+  WindowMenuButtonPosition: 1
+  ChildRounding: 2
+  ChildBorderSize: 1
+  PopupRounding: 2
+  PopupBorderSize: 1
+  FramePadding: {x: 4, y: 3}
+  FrameRounding: 2
+  FrameBorderSize: 0
+  ItemSpacing: {x: 8, y: 4}
+  ItemInnerSpacing: {x: 4, y: 4}
+  TouchExtraPadding: {x: 0, y: 0}
+  IndentSpacing: 21
+  ColumnsMinSpacing: 6
+  ScrollbarSize: 14
+  ScrollbarRounding: 12
+  GrabMinSize: 10
+  GrabRounding: 0
+  TabRounding: 2
+  TabBorderSize: 0
+  ColorButtonPosition: 1
+  ButtonTextAlign: {x: 0.5, y: 0.5}
+  SelectableTextAlign: {x: 0, y: 0}
+  DisplayWindowPadding: {x: 19, y: 19}
+  DisplaySafeAreaPadding: {x: 3, y: 3}
+  MouseCursorScale: 1
+  AntiAliasedLines: 1
+  AntiAliasedFill: 1
+  CurveTessellationTol: 1.25
+  CircleSegmentMaxError: 1.6
+  Colors:
+  - {r: 0.6666667, g: 0.6666667, b: 0.6666667, a: 1}
+  - {r: 0.4659686, g: 0.46596393, b: 0.46596393, a: 1}
+  - {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 0.9607843}
+  - {r: 0.000001, g: 0.00000099999, b: 0.00000099999, a: 0}
+  - {r: 0.11372549, g: 0.1254902, b: 0.12941177, a: 0.94}
+  - {r: 0.1254902, g: 0.1254902, b: 0.1254902, a: 0.5019608}
+  - {r: 0, g: 0, b: 0, a: 0}
+  - {r: 0, g: 0, b: 0, a: 0.43137255}
+  - {r: 0, g: 0, b: 0, a: 0.54901963}
+  - {r: 0, g: 0, b: 0, a: 0.7058824}
+  - {r: 0.16862746, g: 0.16862746, b: 0.16862746, a: 0.98039216}
+  - {r: 0.078431375, g: 0.078431375, b: 0.078431375, a: 0.98039216}
+  - {r: 0, g: 0, b: 0, a: 0.51}
+  - {r: 0, g: 0, b: 0, a: 0.3137255}
+  - {r: 0.17277312, g: 0.17277457, b: 0.17277485, a: 0.53}
+  - {r: 1, g: 1, b: 1, a: 0.039215688}
+  - {r: 1, g: 1, b: 1, a: 0.078431375}
+  - {r: 1, g: 1, b: 1, a: 0.11764706}
+  - {r: 0.6666667, g: 0.6666667, b: 0.6666667, a: 1}
+  - {r: 0.6666667, g: 0.6666667, b: 0.6666667, a: 1}
+  - {r: 0.7801047, g: 0.7800969, b: 0.7800969, a: 1}
+  - {r: 1, g: 1, b: 1, a: 0.039215688}
+  - {r: 1, g: 1, b: 1, a: 0.078431375}
+  - {r: 1, g: 1, b: 1, a: 0.11764706}
+  - {r: 1, g: 1, b: 1, a: 0.02745098}
+  - {r: 1, g: 1, b: 1, a: 0.047058824}
+  - {r: 1, g: 1, b: 1, a: 0.07058824}
+  - {r: 1, g: 1, b: 1, a: 0.02745098}
+  - {r: 1, g: 1, b: 1, a: 0.047058824}
+  - {r: 1, g: 1, b: 1, a: 0.07058824}
+  - {r: 1, g: 1, b: 1, a: 0.019607844}
+  - {r: 1, g: 1, b: 1, a: 0.039215688}
+  - {r: 1, g: 1, b: 1, a: 0.078431375}
+  - {r: 1, g: 1, b: 1, a: 0.019607844}
+  - {r: 1, g: 1, b: 1, a: 0.039215688}
+  - {r: 1, g: 1, b: 1, a: 0.078431375}
+  - {r: 0.068, g: 0.10199998, b: 0.14800003, a: 0.9724}
+  - {r: 0.13599998, g: 0.26199996, b: 0.424, a: 1}
+  - {r: 0.6666667, g: 0.6666667, b: 0.6666667, a: 1}
+  - {r: 0.9803922, g: 0.7411765, b: 0.18431373, a: 1}
+  - {r: 0.8431373, g: 0.6, b: 0.12941177, a: 1}
+  - {r: 0.9803922, g: 0.7411765, b: 0.18431373, a: 1}
+  - {r: 0.13599998, g: 0.26199996, b: 0.424, a: 1}
+  - {r: 0.9803922, g: 0.7411765, b: 0.18431373, a: 0.9}
+  - {r: 0.9803922, g: 0.7411765, b: 0.18431373, a: 0.9}
+  - {r: 1, g: 1, b: 1, a: 0.7}
+  - {r: 0.8, g: 0.8, b: 0.8, a: 0.2}
+  - {r: 0.8, g: 0.8, b: 0.8, a: 0.35}
