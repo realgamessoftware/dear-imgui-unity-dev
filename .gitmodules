@@ -6,7 +6,7 @@
 	url = https://github.com/realgamessoftware/imgui.net.git
 [submodule "src/cimgui-freetype/freetype2"]
 	path = src/cimgui-freetype/freetype2
-	url = https://git.savannah.gnu.org/git/freetype/freetype2.git
+	url = https://git.sv.nongnu.org/r/freetype/freetype2.git
 [submodule "dear-imgui-project/Packages/dear-imgui-unity"]
 	path = dear-imgui-project/Packages/dear-imgui-unity
 	url = https://github.com/realgamessoftware/dear-imgui-unity.git
