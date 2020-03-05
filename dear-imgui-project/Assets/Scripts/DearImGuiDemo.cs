@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
 using ImGuiNET;
-using ImGuiNET.Unity;
 
 public class DearImGuiDemo : MonoBehaviour
 {

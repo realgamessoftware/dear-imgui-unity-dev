@@ -3,7 +3,7 @@ project(cimgui-unity)
 
 set (_cimgui_path ${CMAKE_CURRENT_SOURCE_DIR}/../cimgui/)
 
-#general settings
+# general settings
 file(GLOB IMGUI_SOURCES
     imconfig_unity.h
     plugin_custom_assert.cpp
@@ -16,7 +16,7 @@ file(GLOB IMGUI_SOURCES
 
 set(IMGUI_STATIC "no" CACHE STRING "Build as a static library")
 
-#add library and link
+# add library and link
 if (IMGUI_STATIC)
     add_library(${PROJECT_NAME} STATIC ${IMGUI_SOURCES})
 else (IMGUI_STATIC)
@@ -33,6 +33,8 @@ else (WIN32)
     target_compile_definitions(${PROJECT_NAME} PRIVATE IMGUI_IMPL_API="extern \"C\" ")
 endif (WIN32)
 
+target_compile_definitions(${PROJECT_NAME} PRIVATE IMGUI_USER_CONFIG="imconfig_unity.h")
+
 target_include_directories(${PROJECT_NAME} PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
 target_include_directories(${PROJECT_NAME} PUBLIC ${_cimgui_path})
 target_include_directories(${PROJECT_NAME} PUBLIC ${_cimgui_path}imgui)
@@ -47,7 +49,7 @@ else (WIN32)
     target_compile_options(${PROJECT_NAME} PRIVATE -Wno-return-type-c-linkage)
 endif (WIN32)
 
-#install
+# install
 install(TARGETS ${PROJECT_NAME}
     RUNTIME DESTINATION  .
     LIBRARY DESTINATION  .
