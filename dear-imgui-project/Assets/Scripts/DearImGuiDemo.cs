@@ -5,15 +5,15 @@ public class DearImGuiDemo : MonoBehaviour
 {
     void OnEnable()
     {
-        ImGuiUn.OnLayout += Layout;
+        ImGuiUn.Layout += OnLayout;
     }
 
     void OnDisable()
     {
-        ImGuiUn.OnLayout -= Layout;
+        ImGuiUn.Layout -= OnLayout;
     }
 
-    void Layout()
+    void OnLayout()
     {
         ImGui.ShowDemoWindow();
     }
